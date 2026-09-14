@@ -427,7 +427,7 @@ function Home() {
                         <IconZap size={20} color="#ffffff" />
                     </div>
                     <div className="brand-title">
-                        FinPulse <span className="brand-tag">PRO</span>
+                        Vaultix <span className="brand-tag">PRO</span>
                     </div>
                 </div>
 

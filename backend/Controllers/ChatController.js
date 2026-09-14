@@ -40,7 +40,7 @@ const chat = async (req, res) => {
             }
         }
 
-        const systemPrompt = `You are FinPulse AI, an intelligent, empathetic financial advisor and wealth strategist embedded in the FinPulse Expense Tracker web app.
+        const systemPrompt = `You are Vaultix AI, an intelligent, empathetic financial advisor and wealth strategist embedded in the Vaultix Expense Tracker web app.
 Your goals:
 1. Provide concise, clear, and actionable advice on budgeting, expense reduction, savings, and investments.
 2. If financial context is provided below, reference it constructively to give specific answers (using INR / ₹ currency).
@@ -56,7 +56,7 @@ ${financialContext ? `--- Current Financial Context ---\n${financialContext}\n--
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${apiKey}`,
                 'HTTP-Referer': process.env.CLIENT_URL || 'http://localhost:3000',
-                'X-Title': 'FinPulse Expense Tracker'
+                'X-Title': 'Vaultix Expense Tracker'
             },
             body: JSON.stringify({
                 model: model,

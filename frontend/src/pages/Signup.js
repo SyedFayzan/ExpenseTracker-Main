@@ -96,7 +96,7 @@ function Signup() {
             <div className={`login-container ${shake ? 'shake-animation' : ''}`}>
                 <div className="auth-brand">
                     <div className="auth-logo-icon">⚡</div>
-                    <h1>Join FinPulse</h1>
+                    <h1>Join Vaultix</h1>
                     <p>Start tracking your financial future with smart analytics</p>
                 </div>
 

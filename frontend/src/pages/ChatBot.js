@@ -20,7 +20,7 @@ function ChatBot() {
     const [messages, setMessages] = useState([
         {
             role: 'bot',
-            text: 'Hello! I am your FinPulse AI Wealth Advisor. Ask me anything about your finances, budget optimization, or spending habits.'
+            text: 'Hello! I am your Vaultix AI Wealth Advisor. Ask me anything about your finances, budget optimization, or spending habits.'
         }
     ]);
     const [input, setInput] = useState('');
@@ -79,7 +79,7 @@ function ChatBot() {
         <div className="dash-card glass-panel ai-assistant-card">
             <div className="dash-card-header">
                 <div>
-                    <h2><IconBot size={18} style={{ color: 'var(--info-color)' }} /> FinPulse AI Advisor</h2>
+                    <h2><IconBot size={18} style={{ color: 'var(--info-color)' }} /> Vaultix AI Advisor</h2>
                     <p className="dash-card-subtitle">Intelligent financial insights & saving strategies</p>
                 </div>
                 <span className="badge badge-neutral" style={{ color: 'var(--info-color)' }}>

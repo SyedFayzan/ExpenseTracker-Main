@@ -107,7 +107,7 @@ function Login() {
             <div className={`login-container ${shake ? 'shake-animation' : ''}`}>
                 <div className="auth-brand">
                     <div className="auth-logo-icon">⚡</div>
-                    <h1>FinPulse</h1>
+                    <h1>Vaultix</h1>
                     <p>Welcome back! Sign in to access your wealth portal</p>
                 </div>
 
